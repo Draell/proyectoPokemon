@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/leftFragment"
+        android:title="Colección"
+        android:icon="@drawable/ic_mispokes"/>
+    <item
+        android:id="@+id/homeFragment"
+        android:title="Perfil"
+        android:icon="@drawable/ic_perfil"/>
+    <item
+        android:id="@+id/rightFragment"
+        android:title="Pokedex"
+        android:icon="@drawable/ic_pasto"/>
+</menu>

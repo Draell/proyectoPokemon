@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "61559376365",
+    "firebase_url": "https://pokemonfinal-19e8b-default-rtdb.firebaseio.com",
+    "project_id": "pokemonfinal-19e8b",
+    "storage_bucket": "pokemonfinal-19e8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61559376365:android:3b6cdc796cd60983da7fe4",
+        "android_client_info": {
+          "package_name": "com.example.pokemonfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61559376365-h2idns8sn1jr81ovo7vqubcga7l9dcuf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhFqsdNj4buSVRAywhKsIzwm6s2YiWIZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61559376365-h2idns8sn1jr81ovo7vqubcga7l9dcuf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

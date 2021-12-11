@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:background="@color/gray3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/ivPerf1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@color/blue3"
+        android:src="@drawable/pika1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNickL"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
+        android:text="Nick:"
+        android:textAlignment="center"
+        android:textColor="@color/purp1"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivPerf1" />
+
+    <TextView
+        android:id="@+id/tvNick"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/blue1"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toRightOf="@id/tvNickL"
+        app:layout_constraintTop_toBottomOf="@id/ivPerf1" />
+
+    <TextView
+        android:id="@+id/tvNombreL"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="Nombre"
+        android:textAlignment="center"
+        android:textColor="@color/green1"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvNick" />
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/blue1"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toRightOf="@id/tvNombreL"
+        app:layout_constraintTop_toBottomOf="@id/tvNick" />
+
+    <TextView
+        android:id="@+id/tvNivel1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nivel"
+        android:layout_marginLeft="15dp"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:textColor="@color/purp1"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/tvNombre"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/tvNivel2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp"
+        android:text="0"
+        android:textSize="20dp"
+        android:textColor="@color/blue1"
+        app:layout_constraintTop_toBottomOf="@id/tvNombre"
+        app:layout_constraintLeft_toRightOf="@id/tvNivel1"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/tvCapturados"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:text="Capturados"
+        android:textSize="20dp"
+        android:textColor="@color/green1"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvNivel1" />
+
+
+    <TextView
+        android:id="@+id/tvCapturados2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="0"
+        android:textSize="20dp"
+        android:textColor="@color/blue1"
+        app:layout_constraintLeft_toRightOf="@id/tvCapturados"
+        app:layout_constraintTop_toBottomOf="@id/tvNivel2" />
+
+    <!---
+    <ImageView
+        android:id="@+id/nickLogo"
+        android:layout_width="114dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/tvnickName"
+        app:layout_constraintTop_toBottomOf="@id/tvNumPkmn" />
+-->
+
+    <TextView
+        android:id="@+id/tvCreado"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:padding="5dp"
+        android:text="Creado el:"
+        android:textColor="@color/gray1"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/tvCapturados"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tvCreado2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:text=""
+        android:textColor="@color/green1"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/tvCapturados"
+        app:layout_constraintLeft_toRightOf="@id/tvCreado"
+        />
+
+    <ImageView
+        android:id="@+id/ivLevel"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/level"
+        app:layout_constraintLeft_toRightOf="@id/tvNivel2"
+        app:layout_constraintTop_toBottomOf="@id/tvNombre" />
+
+    <ImageView
+        android:id="@+id/ivCapture"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/catched"
+        app:layout_constraintLeft_toRightOf="@id/tvCapturados2"
+        app:layout_constraintTop_toBottomOf="@id/tvNivel2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
